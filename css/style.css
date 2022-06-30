@@ -110,11 +110,41 @@ CARACTERISTICAS
     font-weight: 900;
     font-size: 1.4rem;
 }
+
 .caracteristicas__detalle img{
     width: 100px;
 }
 
 
+/*----------------------------------
+CONECTIVIDAD
+-----------------------------------*/
+.conectividad{
+    background: linear-gradient(-45deg, #430025, #380042, #260073);
+}
+
+.conectividad_detalle img{
+    max-width: 250px;
+    animation-name: aparecer_izq;
+    animation-duration: 1s;
+}
+
+.conectividad_descripccion{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+}
+
+.conectividad_descripccion img{
+    max-height: 100px;
+    margin: 10px;
+}
+
+.stores img{
+    max-height: 40px;
+    margin: 10px;
+}
 /*----------------------------------
 NEWSLETTER
 -----------------------------------*/
@@ -160,4 +190,15 @@ FIN- ANIMACIONES
     .comofunciona-detalle{
         text-align: center;
     }
+    #conectividad02{
+        display: none !important;
+    }     
 }
+
+@media screen and (min-width: 768px){
+    #conectividad01{
+        display: none !important;
+    }     
+}
+
+
