@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px){
+    .comofunciona-detalle{
+        text-align: center;
+    }
+    #conectividad02{
+        display: none !important;
+    }     
+}
+
+@media screen and (min-width: 768px){
+    #conectividad01{
+        display: none !important;
+    }     
+}

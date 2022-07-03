@@ -1,204 +1,171 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-html{ font-size: 12px;}
-
-a{
-    color: inherit;
-    text-decoration: none;
+html {
+  font-size: 12px;
 }
 
-body{ background-color: #3c3c3c;}
-
-
-.barramenu{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding-right: 30px;
-    padding-left: 30px;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-
-.footer{
-    background-color: #000000;
-    height: 55px;
-    border-top: 2px solid #00ffcb;
-    color: #FFFFFF;
-    font-weight: 100;
+body {
+  background-color: #3c3c3c;
 }
 
-
-/*----------------------------------
-TEXTOS
------------------------------------*/
-
-h1{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-    color: #FFFFFF;
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  color: #FFFFFF;
 }
 
-.bajada{
-    font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
-    color: #FFFFFF;
+.bajada {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  color: #FFFFFF;
 }
 
-.subtitulo{
-    font-weight: 700;
-    font-size: 20px;
+.subtitulo {
+  font-weight: 700;
+  font-size: 20px;
 }
 
-.subtitulo2{
-    font-weight: 700;
-    font-size: 14px;
+.subtitulo2 {
+  font-weight: 700;
+  font-size: 14px;
 }
 
-.titulo{
-    font-weight: 700;
-    font-size: 1.5rem;
-    color:#83ff77;
+.titulo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #83ff77;
 }
 
-
-/*----------------------------------
-COMO FUNCIONA
------------------------------------*/
-.comofunciona{
-    background: linear-gradient(#000019, #005eae, #5bdacd);
+.barramenu {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
-.comofunciona-detalle{
-    animation-name: aparecer_der;
-    animation-duration: 1s;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    color: #FFFFFF;
+.footer {
+  background-color: #000000;
+  height: 55px;
+  border-top: 2px solid #00ffcb;
+  color: #FFFFFF;
+  font-weight: 100;
 }
 
-.comofunciona img {
-    width: 350px;
-    padding: 20px;
-    animation-name: aparecer_izq;
-    animation-duration: 1s;
+.comofunciona {
+  background: linear-gradient(#000019, #005eae, #5bdacd);
+}
+.comofunciona .comofunciona-detalle {
+  animation-name: aparecer_der;
+  animation-duration: 1s;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+}
+.comofunciona .comofunciona-detalle img {
+  width: 350px;
+  padding: 20px;
+  animation-name: aparecer_izq;
+  animation-duration: 1s;
 }
 
-
-/*----------------------------------
-CARACTERISTICAS
------------------------------------*/
-.caracteristicas{
-    background: linear-gradient(-45deg, #00dacb, #005ea8, #1a002d);
+.caracteristicas {
+  background: linear-gradient(-45deg, #00dacb, #005ea8, #1a002d);
+}
+.caracteristicas .caracteristicas__detalle {
+  width: 250px;
+  margin: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+.caracteristicas .caracteristicas__detalle img {
+  width: 100px;
+}
+.caracteristicas .detalles__titulo {
+  font-weight: 900;
+  font-size: 1.4rem;
 }
 
-.caracteristicas__detalle {
-    width: 250px;
-    margin: 20px;
+.conectividad {
+  background: linear-gradient(-45deg, #00dacb, #005ea8, #1a002d);
+}
+.conectividad .conectividad_detalle img {
+  max-width: 250px;
+  animation-name: aparecer_izq;
+  animation-duration: 1s;
+}
+.conectividad .conectividad_descripccion {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+}
+.conectividad .conectividad_descripccion img {
+  max-height: 100px;
+  margin: 10px;
+}
+.conectividad .stores img {
+  max-height: 40px;
+  margin: 10px;
+}
+
+.newsletter {
+  background: linear-gradient(45deg, #24023b, #6800ae, #5400da);
+}
+.newsletter .email {
+  max-width: 350px;
+}
+.newsletter .newsletter__btn {
+  background-color: #1a002d;
+  color: #00dacb;
+  padding: 3px;
+  border-radius: 10px;
+  height: 35px;
+  max-width: 250px;
+}
+
+@keyframes aparecer_izq {
+  0% {
+    transform: translate(-50px, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes aparecer_der {
+  0% {
+    transform: translate(50px, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .comofunciona-detalle {
     text-align: center;
-    font-size: 1.2rem;
-    color:#FFFFFF;
+  }
+
+  #conectividad02 {
+    display: none !important;
+  }
 }
-
-.detalles__titulo{
-    font-weight: 900;
-    font-size: 1.4rem;
-}
-
-.caracteristicas__detalle img{
-    width: 100px;
-}
-
-
-/*----------------------------------
-CONECTIVIDAD
------------------------------------*/
-.conectividad{
-    background: linear-gradient(-45deg, #430025, #380042, #260073);
-}
-
-.conectividad_detalle img{
-    max-width: 250px;
-    animation-name: aparecer_izq;
-    animation-duration: 1s;
-}
-
-.conectividad_descripccion{
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    color: #FFFFFF;
-}
-
-.conectividad_descripccion img{
-    max-height: 100px;
-    margin: 10px;
-}
-
-.stores img{
-    max-height: 40px;
-    margin: 10px;
-}
-/*----------------------------------
-NEWSLETTER
------------------------------------*/
-.newsletter{
-    background: linear-gradient(45deg, #24023b, #6800ae, #5400da);
-}
-.email{
-    max-width: 350px;
-}
-.newsletter__btn{
-    background-color: #1a002d;
-    color: #00dacb;
-    padding: 3px;
-    border-radius: 10px;
-    height: 35px;
-    max-width: 250px;
-}
-
-
-/*-----------------------
-START- ANIMACIONES
--------------------------*/
-@keyframes aparecer_izq{
-    0%{transform: translate(-50px,0px);
-       opacity: 0;}
-    100%{transform: translate(0px,0px);}
-}
-
-@keyframes aparecer_der{
-    0%{transform: translate(50px,0px);
-       opacity: 0;}
-    100%{transform: translate(0px,0px);}
-}
-
-/*-----------------------
-FIN- ANIMACIONES
--------------------------*/
-
-/*----------------------------------
-@MEDIAS
------------------------------------*/
-@media screen and (max-width: 768px){
-    .comofunciona-detalle{
-        text-align: center;
-    }
-    #conectividad02{
-        display: none !important;
-    }     
-}
-
-@media screen and (min-width: 768px){
-    #conectividad01{
-        display: none !important;
-    }     
-}
-
-
+@media screen and (min-width: 768px) {
+  #conectividad01 {
+    display: none !important;
+  }
+}/*# sourceMappingURL=style.css.map */

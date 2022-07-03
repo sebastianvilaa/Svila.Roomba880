@@ -1,0 +1,26 @@
+.conectividad{
+    background: $fondo02;
+
+    .conectividad_detalle img{
+        max-width: 250px;
+        animation-name: aparecer_izq;
+        animation-duration: 1s;
+    }
+    
+    .conectividad_descripccion{
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        color: #FFFFFF;
+    
+        img{
+            max-height: 100px;
+            margin: 10px;
+        }
+    }
+        
+    .stores img{
+        max-height: 40px;
+        margin: 10px;
+    }
+}

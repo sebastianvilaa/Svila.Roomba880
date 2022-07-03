@@ -1,0 +1,19 @@
+.comofunciona{
+    background: $fondo01;
+
+    .comofunciona-detalle{
+        animation-name: aparecer_der;
+        animation-duration: 1s;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        color: #FFFFFF;
+    
+        img {
+            width: 350px;
+            padding: 20px;
+            animation-name: aparecer_izq;
+            animation-duration: 1s;
+        }
+    }
+}

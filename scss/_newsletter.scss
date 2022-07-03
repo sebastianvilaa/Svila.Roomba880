@@ -1,0 +1,15 @@
+.newsletter{
+    background:$fondo03;
+
+    .email{
+        max-width: 350px;
+    }
+    .newsletter__btn{
+        background-color: #1a002d;
+        color: #00dacb;
+        padding: 3px;
+        border-radius: 10px;
+        height: 35px;
+        max-width: 250px;
+    }    
+}
