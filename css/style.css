@@ -107,12 +107,6 @@ h1 {
   animation-name: aparecer_izq;
   animation-duration: 1s;
 }
-.conectividad .conectividad_descripccion {
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-}
 .conectividad .conectividad_descripccion img {
   max-height: 100px;
   margin: 10px;
@@ -120,6 +114,15 @@ h1 {
 .conectividad .stores img {
   max-height: 40px;
   margin: 10px;
+}
+
+.experiencia {
+  background: linear-gradient(#330c84, #040411);
+  color: #FFFFFF;
+}
+
+.video {
+  min-height: 350px;
 }
 
 .newsletter {
@@ -158,14 +161,5 @@ h1 {
 @media screen and (max-width: 768px) {
   .comofunciona-detalle {
     text-align: center;
-  }
-
-  #conectividad02 {
-    display: none !important;
-  }
-}
-@media screen and (min-width: 768px) {
-  #conectividad01 {
-    display: none !important;
   }
 }/*# sourceMappingURL=style.css.map */
