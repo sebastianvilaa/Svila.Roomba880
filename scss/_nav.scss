@@ -1,7 +1,19 @@
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
 .barramenu{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+    img{
+    max-height: 30px;
+    padding: 5px;
+    }
 }
+
