@@ -1,5 +1,5 @@
 .newsletter{
-    background:$fondo03;
+    background: map-get($fondos, 03);
 
     .email{
         max-width: 350px;

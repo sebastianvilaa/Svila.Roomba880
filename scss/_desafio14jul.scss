@@ -1,0 +1,62 @@
+@mixin propiedades ($ancho, $alto, $color) {
+    width: $ancho;
+    height: $alto;
+    @if ($color == true){
+        color: #FFFFFF;
+    }
+    @else {
+        color: #000000;
+    }
+}
+
+$atributostextos:(
+    interlineado: 1.3rem,
+    colordeletra: #FFFFFF,
+    alineaciontexto:center,
+);
+
+.bajadadesafio{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: map-get($atributostextos, $alineaciontexto);
+    color:map-get($atributostextos, colordeletra);
+    line-height: map-get($atributostextos, interlineado);
+}
+
+.boton{
+    @include propiedades(250px, 50px, true);
+    margin: 5px;
+    background-color: aquamarine;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 0px; 
+}
+
+.boton-verde{
+    @extend .boton;
+    background-color: #00ff95;
+    color: #000000;
+    &:hover{
+        background-color: #eca916;
+        @include propiedades(250px, 50px, true);
+    }
+}
+
+.boton-rojo{
+    @extend .boton;
+    background-color: #8a1c1c;
+    &:hover{
+        background-color: #360a6e;
+    }
+}
+
+.boton-celeste{
+    @extend .boton;
+    background-color: #0e9bfa;
+    &:hover{
+        background-color: #f53fcd;
+    }
+}
+

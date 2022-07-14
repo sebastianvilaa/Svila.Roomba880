@@ -1,5 +1,5 @@
 .conectividad{
-    background: $fondo02;
+    background: map-get($fondos, 02);
 
     .conectividad_detalle img{
         max-width: 250px;

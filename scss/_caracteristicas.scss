@@ -1,5 +1,5 @@
 .caracteristicas{
-    background: $fondo02;
+    background: map-get($fondos, 02);
 
     .caracteristicas__detalle {
         width: 250px;

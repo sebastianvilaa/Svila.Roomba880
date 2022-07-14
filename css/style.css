@@ -24,26 +24,21 @@ h1 {
   color: #FFFFFF;
 }
 
+.h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .bajada {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.3rem;
   color: #FFFFFF;
 }
 
-.subtitulo {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.subtitulo2 {
-  font-weight: 700;
-  font-size: 14px;
-}
-
 .titulo {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #83ff77;
 }
 
@@ -64,7 +59,7 @@ h1 {
 }
 
 .footer {
-  background-color: #000000;
+  background: #000000;
   height: 55px;
   border-top: 2px solid #00ffcb;
   color: #FFFFFF;
@@ -171,4 +166,49 @@ h1 {
   .comofunciona-detalle {
     text-align: center;
   }
+}
+.bajadadesafio {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 1.3rem;
+}
+
+.boton, .boton-celeste, .boton-rojo, .boton-verde {
+  width: 250px;
+  height: 50px;
+  color: #FFFFFF;
+  margin: 5px;
+  background-color: aquamarine;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.boton-verde {
+  background-color: #00ff95;
+  color: #000000;
+}
+.boton-verde:hover {
+  background-color: #eca916;
+  width: 250px;
+  height: 50px;
+  color: #FFFFFF;
+}
+
+.boton-rojo {
+  background-color: #8a1c1c;
+}
+.boton-rojo:hover {
+  background-color: #360a6e;
+}
+
+.boton-celeste {
+  background-color: #0e9bfa;
+}
+.boton-celeste:hover {
+  background-color: #f53fcd;
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 .comofunciona{
-    background: $fondo01;
+   background: map-get($fondos, 01);
 
     .comofunciona-detalle{
         animation-name: aparecer_der;

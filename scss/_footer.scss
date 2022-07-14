@@ -1,5 +1,5 @@
 .footer{
-    background-color: #000000;
+    background: map-get($fondos, negro);
     height: 55px;
     border-top: 2px solid #00ffcb;
     color: #FFFFFF;
