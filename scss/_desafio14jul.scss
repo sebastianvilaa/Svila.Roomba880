@@ -18,7 +18,7 @@ $atributostextos:(
 .bajadadesafio{
     font-weight: 400;
     font-size: 1.2rem;
-    text-align: map-get($atributostextos, $alineaciontexto);
+    text-align: map-get($atributostextos,alineaciontexto);
     color:map-get($atributostextos, colordeletra);
     line-height: map-get($atributostextos, interlineado);
 }
