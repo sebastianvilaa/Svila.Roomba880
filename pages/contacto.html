@@ -39,9 +39,6 @@
           <li class="nav-item alinearder">
             <a class="nav-link active" href="#">Contacto</a>
           </li>
-          <li class="nav-item alinearder">
-            <a class="nav-link" href="./desafio14JUL.html">Desafio 14JUL</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -72,48 +69,51 @@
       <div class="conectividad p-4">
 
         <div class="row align-items-center justify-content-around">
-          <h1 class="text-center m-2">conctato</h1>
+          <h1 class="text-center m-2">Conctato</h1>
         </div>
 
         <div class="mapa">
           <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.418616738158!2d-58.400076!3d-34.5951924!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e2bfea4d603f2b8!2sTeVeCompras%20-%20Av%20Santa%20Fe%202320!5e0!3m2!1ses-419!2sar!4v1654756619341!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
         </div>
-
-        <div class="contacto_segundaparte PD30">
-          <div class="contacto__txt">
-              <p><span class="titulo__contacto">DEJANOS TU CONSULTA</span> 
-                  <br>Queremos conocer tu opinión, recibir tus preguntas y escuchar tus sugerencias.
-                  Escribinos completando el formulario y te contestaremos a la brevedad.
-              </p>
-              <div class="contacto__txt__icono">
-                  <img src="../links/tel.png" alt="clean">
-                  <p><span class="titulo__contacto">(+54) 0800 - 222 - 4587</span></p>
-              </div>
-              <div class="contacto__txt__icono">
-                  <img src="../links/mail.png" alt="clean">
-                  <p><span class="titulo__contacto">info@irobot.com.ar</span></p>
-              </div>
-          </div>
-          
-          <div class="contacto_form">
-              <form action="#" method="post">
-                  <fieldset>
-                          <div>
-                              <input type="text" name="nombre" placeholder="NOMBRE" required>
-                              <input type="number" name="celular" placeholder="TELEFONO">
-                              <input type="email" name="mail" placeholder="EMAIL" required>
-                          </div>
-                          <div>
-                              <textarea name="comentario" id="" cols="30" rows="10" placeholder="DEJANOS TU MENSAJE"></textarea>
-                          </div>
-                          
-                          <input type="submit" value="Enviar">
-                   </fieldset>
-              </form> 
-          </div>
-      </div>
-       
         
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+
+          <div class="contacto m-4">
+              <p><span class="titulo__contacto">DEJANOS TU CONSULTA</span> 
+              <br>Queremos conocer tu opinión, recibir tus preguntas y escuchar tus sugerencias.
+              Escribinos completando el formulario y te contestaremos a la brevedad.</p>
+
+              <div class="icono d-flex align-items-center">
+                <img src="../links/tel.png" alt="clean">
+                <span class="titulo__contacto">(+54) 0800 - 222 - 4587</span>
+              </div>
+
+              <div class="icono d-flex align-items-center">
+                <img src="../links/mail.png" alt="mail">
+                <span class="titulo__contacto">info@irobot.com.ar</span>
+              </div>
+          </div>
+
+          <div class="contacto_form m-4">
+            <form action="#" method="post">
+                <fieldset>
+                    <div class="d-flex flex-wrap">
+                    <input class="input" type="text" name="nombre" placeholder="NOMBRE" required>
+                    <input class="input" type="number" name="celular" placeholder="TELEFONO">
+                    <input class="input" type="email" name="mail" placeholder="EMAIL" required>
+                    </div>
+                    
+                    <div>
+                    <textarea class="input" name="comentario" id="" cols="69" rows="10" placeholder="DEJANOS TU MENSAJE"></textarea>
+                    </div>
+
+                    <input class="enviar_btn" type="submit" value="Enviar">
+                </fieldset>
+            </form> 
+          </div>
+
+        </div>
+      
       </div>
     </main>
 
