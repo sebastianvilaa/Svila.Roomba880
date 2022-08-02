@@ -129,6 +129,18 @@ h1 {
   min-height: 350px;
 }
 
+.FT_detalle {
+  color: #FFFFFF;
+  justify-self: right;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+.FT_detalle img {
+  max-height: 300px;
+  animation-name: aparecer_der;
+  animation-duration: 1s;
+}
+
 .newsletter {
   background: linear-gradient(45deg, #24023b, #6800ae, #5400da);
 }
@@ -144,29 +156,6 @@ h1 {
   max-width: 250px;
 }
 
-@keyframes aparecer_izq {
-  0% {
-    transform: translate(-50px, 0px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(0px, 0px);
-  }
-}
-@keyframes aparecer_der {
-  0% {
-    transform: translate(50px, 0px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(0px, 0px);
-  }
-}
-@media screen and (max-width: 768px) {
-  .comofunciona-detalle {
-    text-align: center;
-  }
-}
 .contacto {
   background: linear-gradient(45deg, #24023b, #6800ae, #5400da);
 }
@@ -216,6 +205,29 @@ h1 {
   margin-top: 5px;
 }
 
+@keyframes aparecer_izq {
+  0% {
+    transform: translate(-50px, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes aparecer_der {
+  0% {
+    transform: translate(50px, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .comofunciona-detalle, .FT_detalle {
+    text-align: center;
+  }
+}
 .bajadadesafio {
   font-weight: 400;
   font-size: 1.2rem;
