@@ -66,7 +66,7 @@
     </header>
 
     <main>
-      <div class="conectividad p-4">
+      <div class="contacto p-4">
 
         <div class="row align-items-center justify-content-around">
           <h1 class="text-center m-2">Conctato</h1>
@@ -76,9 +76,9 @@
           <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.418616738158!2d-58.400076!3d-34.5951924!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e2bfea4d603f2b8!2sTeVeCompras%20-%20Av%20Santa%20Fe%202320!5e0!3m2!1ses-419!2sar!4v1654756619341!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
         </div>
         
-        <div class="d-flex flex-wrap justify-content-center align-items-center">
+        <div class="d-flex flex-wrap justify-content-center align-items-center m-2 col-12">
 
-          <div class="contacto m-4">
+          <div class="contacto_txt m-4 col-12 col-md-6 col-xl-6">
               <p><span class="titulo__contacto">DEJANOS TU CONSULTA</span> 
               <br>Queremos conocer tu opinión, recibir tus preguntas y escuchar tus sugerencias.
               Escribinos completando el formulario y te contestaremos a la brevedad.</p>
@@ -92,22 +92,19 @@
                 <img src="../links/mail.png" alt="mail">
                 <span class="titulo__contacto">info@irobot.com.ar</span>
               </div>
-          </div>
+          </div>          
 
-          <div class="contacto_form m-4">
+          <div class="contacto_form m-2 col-12 col-md-5 col-xl-4">
             <form action="#" method="post">
                 <fieldset>
-                    <div class="d-flex flex-wrap">
+                    <div class="d-flex flex-wrap justify-content-center">
                     <input class="input" type="text" name="nombre" placeholder="NOMBRE" required>
                     <input class="input" type="number" name="celular" placeholder="TELEFONO">
                     <input class="input" type="email" name="mail" placeholder="EMAIL" required>
-                    </div>
+                    <textarea class="input" name="comentario"  rows="5" placeholder="DEJANOS TU MENSAJE O SUGERENCIAS"></textarea>
                     
-                    <div>
-                    <textarea class="input" name="comentario" id="" cols="69" rows="10" placeholder="DEJANOS TU MENSAJE"></textarea>
-                    </div>
-
                     <input class="enviar_btn" type="submit" value="Enviar">
+                    </div>
                 </fieldset>
             </form> 
           </div>

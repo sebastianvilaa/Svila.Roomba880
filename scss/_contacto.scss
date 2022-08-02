@@ -1,55 +1,54 @@
-.mapa{
-    width: 100%;
-    height: 300px;
-}
-
 .contacto{
-    max-width: 550px;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    color: #FFFFff;
-}
+    background: map-get($fondos, 03);
 
-.titulo__contacto{
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.contacto__txt__icono{
-    margin: 10px;
-}
-
-.icono img{
-    max-height: 40px;
-    padding-right: 10px;
-}
-
-.contacto_form{
-    max-width: 550px;
-    .input{
-        border: none;
-        letter-spacing: 2px;
-        line-height: 22px;
-        padding-bottom: 10px;
-        margin:3px;
-        padding-left: 2px;
-        padding-right: 2px;
-        border-bottom: solid 2px #FFFFff;
-        background: rgba(0,0,0,0);
-        &::placeholder { color: #FFFFff;}
+    .mapa{
+        width: 100%;
+        height: 300px;
     }
-    .enviar_btn{
-        background-color: #1a002d;
-        color: #00dacb;
-        padding: 3px;
-        border-radius: 10px;
-        width: 200px;
-        height: 35px;
-        max-width: 250px;
-    } 
-}
-
-fieldset{
-    border: 0;
-}
+    .contacto_txt{
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        color: #FFFFff;
+    }
+    
+    .titulo__contacto{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .contacto__txt__icono{
+        margin: 10px;
+    }
+    
+    .icono img{
+        max-height: 40px;
+        padding-right: 10px;
+    }
+    
+    .contacto_form{
+       
+        .input{
+            width: 98%;
+            border: none;
+            letter-spacing: 2px;
+            line-height: 22px;
+            padding-bottom: 10px;
+            margin:3px;
+            padding-left: 2px;
+            padding-right: 2px;
+            border-bottom: solid 2px #FFFFff;
+            background: rgba(163, 10, 10, 0);
+            &::placeholder { color: #FFFFff;}
+        }
+        .enviar_btn{
+            background-color: #1a002d;
+            color: #00dacb;
+            padding: 3px;
+            width: 200px;
+            height: 45px;
+            max-width: 250px;
+            margin-top: 5px;
+        } 
+    }
+} 
